@@ -18,7 +18,9 @@
             android:layout_height="match_parent"
             app:contentScrim="@color/white"
             app:layout_scrollFlags="exitUntilCollapsed|scroll|snap"
-            app:title="main menu">
+            app:title="main menu"
+            android:fontFamily="@font/cantora_one"
+            app:expandedTitleTextColor="@color/white">
 
             <ImageView
                 android:id="@+id/meal_img"
@@ -58,11 +60,15 @@
             android:id="@+id/recipe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
             android:text="recipe"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/cantora_one"/>
 
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

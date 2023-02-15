@@ -28,7 +28,8 @@
                     android:text="Home"
                     android:textColor="#E8165D"
                     android:textSize="30sp"
-                    android:textStyle="italic" />
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cantora_one"/>
 
                 <ImageView
                     android:layout_width="0dp"
@@ -44,8 +45,9 @@
                 android:layout_margin="10dp"
                 android:text="What would you like to eat"
                 android:textColor="#E8165D"
-                android:textSize="20sp"
-                android:textStyle="bold|italic" />
+                android:textSize="28sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/cantora_one"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -70,8 +72,9 @@
                 android:layout_margin="10dp"
                 android:text="Our Popular Items"
                 android:textColor="#E8165D"
-                android:textSize="20sp"
-                android:textStyle="bold|italic" />
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/cantora_one"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/popular_recycle"
@@ -85,8 +88,9 @@
                 android:layout_margin="10dp"
                 android:text="Our Categories"
                 android:textColor="#E8165D"
-                android:textSize="20sp"
-                android:textStyle="bold|italic" />
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/cantora_one"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/category_recycle"

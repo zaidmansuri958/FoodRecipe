@@ -29,6 +29,7 @@
             android:textStyle="bold"
             android:layout_margin="5dp"
             android:gravity="center"
+            android:fontFamily="@font/cantora_one"
             />
 
     </LinearLayout>
